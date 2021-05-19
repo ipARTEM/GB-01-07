@@ -7,6 +7,23 @@ namespace Task02
     {
         static void Main(string[] args)
         {
+
+            string yes = "да";
+
+            Console.WriteLine("Введите пароль: ");
+            string pass= Console.ReadLine();
+
+            if (pass==yes)
+            {
+                Console.WriteLine("Вы ввели правельный пароль!");
+
+            }
+            else
+                Console.WriteLine("НЕ УГАДАЛИ!");
+
+
+
+
             List<Person> people = new List<Person>();
 
             people.Add(new Person() { FirstName = "Уильям ", LastName = "Генри ", Patronymic = "Гейтс III" });
@@ -32,6 +49,8 @@ namespace Task02
             }
 
             person.GetFullName();
+
+            Console.ReadLine();
 
         }
 
