@@ -1,4 +1,10 @@
-﻿using System;
+﻿// Decompiled with JetBrains decompiler
+// Type: GB_01_07.Program
+// Assembly: GB-01-07, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: 27F50E5F-0EF9-4DC7-A512-1B1057A8B42B
+// Assembly location: D:\Программирование\GeekBrains\C# Разработчик\GB-01-07x\GB-01-07\bin\Debug\net5.0\GB-01-07.dll
+
+using System;
 using System.Collections.Generic;
 
 namespace GB_01_07
@@ -37,7 +43,7 @@ namespace GB_01_07
 
         public static void GetFullName(string firstName, string lastName, string patronymic)
         {
-            Console.WriteLine($" Имя: {firstName}, Фамилия: {lastName}, Отчество: {patronymic}");
+            Console.WriteLine($"  Фамилия: {lastName}, Имя: {firstName}, Отчество: {patronymic}");
 
         }
     }
