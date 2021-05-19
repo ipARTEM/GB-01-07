@@ -17,7 +17,7 @@ namespace Task03
 
             if (pass == yes)
             {
-                Console.WriteLine("Вы ввели правельный пароль!");
+                Console.WriteLine("Вы ввели правильный пароль!");
 
             }
             else
